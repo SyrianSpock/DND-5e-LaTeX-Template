@@ -1,7 +1,8 @@
 \newcommand{\spellheader}[9]{
+  \addcontentsline{toc}{section}{#1}
   \subtitlesection{#1}{#2}
   \vspace{-1ex} % subtitlesection artefact; topsep also changes bottom spacing.
-  \begin{description}[font=\normalfont\textbf,noitemsep,topsep=1ex,leftmargin=1em,align=right,labelwidth=4cm]
+  \begin{description}[font=\normalfont\textbf,noitemsep,topsep=1ex,leftmargin=1em,align=right,labelwidth=3.5cm]
     \item[\spellcastingtimename:] #3
     \item[\spellrangename:] #4
     \item[\spellcomponentsname:] #5
